@@ -16,7 +16,6 @@ def no_duplicates(a_string):
     '''Returns a sorted string with no duplicate characters'''
     none_duplicates = ''.join(sorted(set(a_string.lower())))
     return none_duplicates
-    pass
 
 
 def reversed_words(a_string):
