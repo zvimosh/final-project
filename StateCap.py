@@ -171,9 +171,9 @@ def main():
 
 
 if __name__ == '__main__':
-    sys.exit(main())
+    
     '''Manual Outputs for testing and proof of work'''
-"""     print('--------------------------------------')
+    print('--------------------------------------')
     print('task 1 - captial of Idaho')
     print('--------------------------------------')
     capital_of_Idaho()
@@ -197,4 +197,5 @@ if __name__ == '__main__':
     print('task 6 - get capital from state')
     print('--------------------------------------')
     get_capital('Wyoming')
-    retcode = pytest.main([__file__]) """
+    retcode = pytest.main([__file__])
+    sys.exit(main())
