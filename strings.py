@@ -53,7 +53,6 @@ def main():
 
 
 if __name__ == '__main__':
-    
     print('--------------------------------------')
     print('task 1 - none duplicates, sorted')
     print('--------------------------------------')
