@@ -53,7 +53,9 @@ def main():
 
 
 if __name__ == '__main__':
-    print('--------------------------------------')
+    main()
+    '''Manual Outputs for testing and proof of work'''
+"""     print('--------------------------------------')
     print('task 1 - none duplicates, sorted')
     print('--------------------------------------')
     print(no_duplicates(a_string))
@@ -66,7 +68,7 @@ if __name__ == '__main__':
     print('--------------------------------------')
     print(four_char_strings(a_string))
     print('--------------------------------------')
-    retcode = pytest.main([__file__])
-    main()
+    retcode = pytest.main([__file__]) """
+    
     
     
